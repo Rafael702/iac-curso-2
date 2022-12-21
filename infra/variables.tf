@@ -8,6 +8,10 @@ variable "chave" {
     type = string
 }
 
-variable "instancia"{
+variable "instancia" {
+    type = string
+}
+
+variable "ami" {
     type = string
 }
