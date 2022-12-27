@@ -6,3 +6,7 @@ module "aws-prod" {
   regiao_aws = "sa-east-1"
   chave = "Iac-prod"
 }
+
+output "IP_Prod" {
+  value = module.aws-prod.IP_publico
+}
